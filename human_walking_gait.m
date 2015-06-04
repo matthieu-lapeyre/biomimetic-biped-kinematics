@@ -109,9 +109,9 @@ q_r = [r_hip_y_human; r_knee_y_human; r_ankle_y_human];
 q_l = [l_hip_y_human; l_knee_y_human; l_ankle_y_human];
 
 %% Return inverse kinematic
-
-addpath('../kinematics_models/functions/')
-for i=1:numel(t_norm)
-    [pos_r(:,:,i), theta_foot_r(i)] = leg_fkine(q_r(:,i),human_morphology);
-end
+% 
+% addpath('../kinematics_models/functions/')
+% for i=1:numel(t_norm)
+%     [pos_r(:,:,i), theta_foot_r(i)] = leg_fkine(q_r(:,i),human_morphology);
+% end
 
